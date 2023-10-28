@@ -1,0 +1,5 @@
+ami = "ami-0dbc3d7bc646e8516"
+region = "us-east-1"
+instance_type = "t2.micro"
+name="web_Server"
+volume_size = "20"
