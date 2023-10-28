@@ -1,6 +1,14 @@
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+      version = "5.23.1"
+    }
+  }
+}
+
 provider "aws" {
-  region = "us-east-1"
-  
+  # Configuration options
 }
 
 resource "aws_instance" "Ec2_instance" { // resource creation of ec2 instance 
