@@ -3,8 +3,7 @@ name: 'Terraform plan'
 on:
     push:
       branches:
-        - Features1
-    
+        - Features    
 jobs:
     terraform:
       name: 'Terraform'
