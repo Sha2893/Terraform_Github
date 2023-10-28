@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  # Configuration options
+  region = "us-east-1"
 }
 
 resource "aws_instance" "Ec2_instance" { // resource creation of ec2 instance 
